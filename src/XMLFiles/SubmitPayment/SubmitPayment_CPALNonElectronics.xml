@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><SubmitPaymentRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EPWFHeaderInfo>
+    <RequestId xmlns="http://www.qwest.com/XMLSchema/BIM">20160705171013</RequestId>
+    <SendTimeStamp xmlns="http://www.qwest.com/XMLSchema/BIM">2014-10-07T23:23:18.7629712-05:00</SendTimeStamp>
+    <MessageSrcSystem xmlns="http://www.qwest.com/XMLSchema/BIM">CMT</MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <Payment>
+    <ConvenienceFeeAmt>0.0</ConvenienceFeeAmt>
+    <TaxAreaCode xmlns="http://www.qwest.com/XMLSchema/BIM"/>
+    <TotalTaxAmt>0.0</TotalTaxAmt>
+    <PaymentAmt>25.99</PaymentAmt>
+    <TransactionTypeCode>Payment</TransactionTypeCode>
+    <PaymentAction>Cpal</PaymentAction> 
+    <InputChannelId>CMT</InputChannelId>
+    <PaymentTypeCode>P</PaymentTypeCode>
+    <ConsentMediumCode>Phone</ConsentMediumCode>
+    <UserId>rbajjur</UserId>
+    <SrcApplicationId>CMT</SrcApplicationId>
+    <DestinationApplicationId>XCASH</DestinationApplicationId>
+    <CustomerType>CON</CustomerType>
+    <PaymentScheduleType>OneTime</PaymentScheduleType>
+    <CustomerFirstName>SAM MASTERVILLE</CustomerFirstName>
+    <CustomerLastName>SAM MASTERVILLE</CustomerLastName>
+    <BillingApplicationId>CRIS</BillingApplicationId>
+    <BillingAcctId>2083341956567</BillingAcctId>
+    <EntityAllocation>
+      <EntityCodeId>000H</EntityCodeId>
+      <EntityAmt>12.13</EntityAmt>
+    </EntityAllocation>
+    <EntityAllocation>
+      <EntityCodeId>000R</EntityCodeId>
+      <EntityAmt>4.33</EntityAmt>
+    </EntityAllocation>
+    <EntityAllocation>
+      <EntityCodeId>002M</EntityCodeId>
+      <EntityAmt>9.53</EntityAmt>
+    </EntityAllocation>
+    <BillingAcctRegion>IR</BillingAcctRegion>
+  </Payment>
+</SubmitPaymentRequest>

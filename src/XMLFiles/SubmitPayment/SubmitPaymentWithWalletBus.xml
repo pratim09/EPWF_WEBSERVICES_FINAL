@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:SubmitPaymentRequest xmlns:xs="http://www.qwest.com/XMLSchema">
+<xs:EPWFHeaderInfo>
+<bim:RequestId xmlns:bim="http://www.qwest.com/XMLSchema/BIM">20160121114942</bim:RequestId>
+<bim:SendTimeStamp xmlns:bim="http://www.qwest.com/XMLSchema/BIM">2015-06-04T00:01:19.792-06:00</bim:SendTimeStamp>
+<bim:MessageSrcSystem xmlns:bim="http://www.qwest.com/XMLSchema/BIM">MYACCOUNT</bim:MessageSrcSystem>
+</xs:EPWFHeaderInfo>
+<xs:Payment>
+<xs:WalletRef>20160114152314</xs:WalletRef>
+<bim:Email xmlns:bim="http://www.qwest.com/XMLSchema/BIM">ab42863@centurylink.com</bim:Email>
+<xs:ConvenienceFeeAmt>0.00</xs:ConvenienceFeeAmt>
+<bim:TaxAreaCode xmlns:bim="http://www.qwest.com/XMLSchema/BIM"> </bim:TaxAreaCode>
+<xs:TotalTaxAmt>0</xs:TotalTaxAmt>
+<xs:PaymentAmt>10.00</xs:PaymentAmt>
+<xs:PaymentProcessDateTime>2015-06-09T00:01:19.792-06:00</xs:PaymentProcessDateTime>
+<xs:TransactionTypeCode>Payment</xs:TransactionTypeCode>
+<xs:PaymentAction>InitiateSession</xs:PaymentAction>
+<xs:InputChannelId>MYA_PAY</xs:InputChannelId>
+<xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+<xs:ConsentMediumCode>Phone</xs:ConsentMediumCode>
+<xs:UserId>ab42863</xs:UserId>
+<xs:SrcApplicationId>MYACCOUNT</xs:SrcApplicationId>
+<xs:DestinationApplicationId>XCASH</xs:DestinationApplicationId>
+<xs:CustomerType>SBG</xs:CustomerType>
+<xs:PaymentScheduleType>OneTime</xs:PaymentScheduleType>
+<xs:OrderNumber>N12345678</xs:OrderNumber>
+<xs:BusinessName>Automation Testing</xs:BusinessName>
+<xs:EPWFAddressT>
+<xs:StreetAddress1>617 N SOLAR DR</xs:StreetAddress1>
+<xs:City>SIOUX FALLS</xs:City>
+<bim:StateProvince xmlns:bim="http://www.qwest.com/XMLSchema/BIM">CO</bim:StateProvince>
+<xs:PostalCode>57103</xs:PostalCode>
+<xs:AddressType>BLG</xs:AddressType>
+</xs:EPWFAddressT>
+<xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+<xs:BillingAcctId>5632420558656</xs:BillingAcctId>
+<xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+<xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+<xs:CardAllowedFlag>true</xs:CardAllowedFlag>
+<xs:WalletType>PRF</xs:WalletType>
+</xs:Payment>
+<xs:SessionDetail>
+<xs:StyleSheetURL>http://stylesheet.url.com</xs:StyleSheetURL>
+<xs:SuccessNotificationURL>http://www.google.com?param=success</xs:SuccessNotificationURL>
+<xs:FailureNotificationURL>http://www.facebook.com?param=fail</xs:FailureNotificationURL>
+<xs:CancelNotificationURL>http://www.gmail.com?param=cancel</xs:CancelNotificationURL>
+</xs:SessionDetail>
+</xs:SubmitPaymentRequest>

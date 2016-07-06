@@ -1,0 +1,19 @@
+<xs:HSD xmlns:xs="http://www.qwest.com/XMLSchema">
+  <xs:SRS>CPLUS_OOP</xs:SRS>
+  <xs:SRU>ab42864</xs:SRU>
+  <xs:SRT>IOT20150123002</xs:SRT>
+  <xs:STY>InitiateDeTokenSession</xs:STY>
+  <xs:STV>900</xs:STV>
+  <xs:SNU>http://www.google.com</xs:SNU>
+  <xs:FNU>https://www.bing.com</xs:FNU>
+  <xs:CNU>http://www.thehindu.com</xs:CNU>
+  <xs:CUS/>
+  <xs:PMT/>
+  <xs:SID>BXX3MRHKD1LJ0</xs:SID>
+  <xs:SEU>https://hcde-itv1.centurylink.com/HCDE/Internal/UI/token/getSession?sessionId=BXX3MRHKD1LJ0</xs:SEU>
+  <xs:TKN>5094150743557126</xs:TKN>
+  <xs:RES>
+    <xs:RCD>S</xs:RCD>
+  </xs:RES>
+  <xs:STM>2016-07-05T07:56:23.487-05:00</xs:STM>
+</xs:HSD>

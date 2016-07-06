@@ -1,0 +1,48 @@
+<xs:TRX xmlns:xs="http://www.qwest.com/XMLSchema">
+  <xs:TRS>PPO</xs:TRS>
+  <xs:TRU>ab14334</xs:TRU>
+  <xs:ECD>QWTEST1</xs:ECD>
+  <xs:PRJ>QWA1000000</xs:PRJ>
+  <xs:COM>Internet</xs:COM>
+  <xs:SIC>PPO</xs:SIC>
+  <xs:TX0>4805633006060</xs:TX0>
+  <xs:TX1>8280643</xs:TX1>
+  <xs:TX3>CRIS-C</xs:TX3>
+  <xs:TX4>PPO</xs:TX4>
+  <xs:TX5>XCASH</xs:TX5>
+  <xs:STI>123456</xs:STI>
+  <xs:TTY>PAYMENT</xs:TTY>
+  <xs:TKN/>
+  <xs:CUS>
+    <xs:CID>4805633006060</xs:CID>
+    <xs:AD1>APT
+456</xs:AD1>
+    <xs:CIT>DENVER</xs:CIT>
+    <xs:STA>CO</xs:STA>
+    <xs:CTY>US</xs:CTY>
+    <xs:ZIP>25600</xs:ZIP>
+    <xs:CTP>Private</xs:CTP>
+    <xs:FNM>ravi</xs:FNM>
+    <xs:LNM>ABCD</xs:LNM>
+  </xs:CUS>
+  <xs:AAI>Y</xs:AAI>
+  <xs:PMT>
+    <xs:AMT>200.0</xs:AMT>
+    <xs:PAC>AUTHORIZE</xs:PAC>
+    <xs:INV>4805633006060</xs:INV>
+    <xs:IND>03/20/2015
+04:39:47</xs:IND>
+    <xs:CUR>USD</xs:CUR>
+    <xs:ORD>N12345678</xs:ORD>
+    <xs:SPI>8280643</xs:SPI>
+  </xs:PMT>
+  <xs:TST>2016-06-22T07:08:51.740Z</xs:TST>
+  <xs:TET>2016-06-22T07:08:51.757Z</xs:TET>
+  <xs:RES>
+    <xs:RCD>F</xs:RCD>
+    <xs:ELT>
+      <xs:ERC>HCDE019</xs:ERC>
+      <xs:ERM>TKN value not supported</xs:ERM>
+    </xs:ELT>
+  </xs:RES>
+</xs:TRX>

@@ -1,0 +1,49 @@
+<xs:UpdatePaymentResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>20160610163057</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-10T06:00:58.731-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>S</bim:TransactionStatus>
+  <xs:Payment>
+    <xs:PaymentId>8388019</xs:PaymentId>
+    <xs:PaymentStatus>Session_Initiated</xs:PaymentStatus>
+    <xs:ConvenienceFeeAmt>0.00</xs:ConvenienceFeeAmt>
+    <xs:TotalTaxAmt>0.00</xs:TotalTaxAmt>
+    <xs:PaymentAmt>25.99</xs:PaymentAmt>
+    <xs:PaymentProcessDateTime>2016-06-10T00:00:00.000-05:00</xs:PaymentProcessDateTime>
+    <xs:PaymentCreatedDateTime>2016-06-10T06:00:56.028-05:00</xs:PaymentCreatedDateTime>
+    <xs:PaymentCreatedUserName>rbajjur</xs:PaymentCreatedUserName>
+    <xs:TransactionTypeCode>Payment</xs:TransactionTypeCode>
+    <xs:InputChannelId>CMT</xs:InputChannelId>
+    <xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+    <xs:ConsentMediumCode>Phone</xs:ConsentMediumCode>
+    <xs:UserId>rbajjur</xs:UserId>
+    <xs:SrcApplicationId>CMT</xs:SrcApplicationId>
+    <xs:DestinationApplicationId>XCASH</xs:DestinationApplicationId>
+    <xs:CustomerType>CON</xs:CustomerType>
+    <xs:PaymentScheduleType>OneTime</xs:PaymentScheduleType>
+    <xs:VendorCustomerId>QRF00000000001000032289</xs:VendorCustomerId>
+    <xs:CustomerFirstName>SAM MASTERVILLE</xs:CustomerFirstName>
+    <xs:CustomerLastName>SAM MASTERVILLE</xs:CustomerLastName>
+    <xs:BillingApplicationId>CRIS-W</xs:BillingApplicationId>
+    <xs:BillingAcctId>2063897100100</xs:BillingAcctId>
+    <xs:EntityAllocation>
+      <xs:EntityCodeId>000H</xs:EntityCodeId>
+      <xs:EntityAmt>12.13</xs:EntityAmt>
+    </xs:EntityAllocation>
+    <xs:EntityAllocation>
+      <xs:EntityCodeId>000R</xs:EntityCodeId>
+      <xs:EntityAmt>4.33</xs:EntityAmt>
+    </xs:EntityAllocation>
+    <xs:EntityAllocation>
+      <xs:EntityCodeId>002M</xs:EntityCodeId>
+      <xs:EntityAmt>9.53</xs:EntityAmt>
+    </xs:EntityAllocation>
+    <xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+    <xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+    <xs:CardAllowedFlag>true</xs:CardAllowedFlag>
+    <xs:VendorCd>HCDE</xs:VendorCd>
+    <xs:RestoralInd>N</xs:RestoralInd>
+  </xs:Payment>
+</xs:UpdatePaymentResponse>

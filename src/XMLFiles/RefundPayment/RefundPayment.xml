@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:RefundPaymentRequest xmlns:bim="http://www.qwest.com/XMLSchema/BIM" xmlns:xs="http://www.qwest.com/XMLSchema">
+<xs:EPWFHeaderInfo>
+<bim:RequestId>20160316150013</bim:RequestId>
+<bim:SendTimeStamp>2014-10-01T05:20:14.498-06:00</bim:SendTimeStamp>
+<bim:MessageSrcSystem>EPP</bim:MessageSrcSystem>
+</xs:EPWFHeaderInfo>
+<xs:OriginalPaymentId>14127266545</xs:OriginalPaymentId>
+<xs:RefundPaymentAmt currency="USD">114.18</xs:RefundPaymentAmt>
+<xs:ConvenienceFeeAmt currency="USD">0.00</xs:ConvenienceFeeAmt>
+<xs:TotalTaxAmt currency="USD">0.00</xs:TotalTaxAmt>
+<xs:RefundRequestReasonCd>Product Not Required</xs:RefundRequestReasonCd>
+<xs:UserId>ab42863</xs:UserId>
+</xs:RefundPaymentRequest>

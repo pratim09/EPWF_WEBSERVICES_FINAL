@@ -1,0 +1,4 @@
+<xs:MDWStatusMessage xmlns:xs="http://mdw.qwest.com/XMLSchema">
+  <StatusCode>-1</StatusCode>
+  <xs:StatusMessage>Cannot parse request</xs:StatusMessage>
+</xs:MDWStatusMessage>

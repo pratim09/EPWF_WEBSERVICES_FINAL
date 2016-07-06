@@ -1,0 +1,58 @@
+<xs:AcctLookupResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo xmlns:qb="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <qb:RequestId>20160610130502</qb:RequestId>
+    <qb:SendTimeStamp>2015-06-08T09:30:47Z</qb:SendTimeStamp>
+    <qb:MessageSrcSystem>EPP</qb:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>S</bim:TransactionStatus>
+  <xs:InputChannelId>EPP</xs:InputChannelId>
+  <xs:SrcApplicationId>EPP</xs:SrcApplicationId>
+  <xs:BillingAccntId>2083341956567</xs:BillingAccntId>
+  <xs:VendorCustomerId>QRF00000000001000049510</xs:VendorCustomerId>
+  <xs:SrcSystemTranId>EPP</xs:SrcSystemTranId>
+  <xs:BillingApplicationId>CRIS-C</xs:BillingApplicationId>
+  <xs:LastBillCycleDay>2013-01-01T00:00:00.000-06:00</xs:LastBillCycleDay>
+  <xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+  <xs:LastBillCurrentChargesAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">87.88</xs:LastBillCurrentChargesAmt>
+  <xs:CustomerType>CON</xs:CustomerType>
+  <xs:AcctStatusCode>L</xs:AcctStatusCode>
+  <xs:CAJUNTreatmentInd>false</xs:CAJUNTreatmentInd>
+  <xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+  <xs:CreditClass>C</xs:CreditClass>
+  <xs:EntityFinalCode>N</xs:EntityFinalCode>
+  <xs:WholesaleRetailCode>R</xs:WholesaleRetailCode>
+  <xs:CustomerName>KATHLEEN ESTES</xs:CustomerName>
+  <xs:EPWFAddressT>
+    <xs:StreetAddress1>1801 CALIFORNIA</xs:StreetAddress1>
+    <xs:City>DRIGGS</xs:City>
+    <bim:StateProvince>ID</bim:StateProvince>
+    <xs:PostalCode>83422</xs:PostalCode>
+    <xs:AddressType>BLG</xs:AddressType>
+  </xs:EPWFAddressT>
+  <xs:ConvenienceFeeAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.5</xs:ConvenienceFeeAmt>
+  <xs:AdjustedDueAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0.0</xs:AdjustedDueAmt>
+  <xs:ActualDueAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">87.88</xs:ActualDueAmt>
+  <xs:PendingPmtAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">87.88</xs:PendingPmtAmt>
+  <xs:UnpaidBalanceAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0.00</xs:UnpaidBalanceAmt>
+  <xs:EntityBalance>
+    <xs:EntityBalanceDetail>
+      <xs:EntityCodeId>MBU</xs:EntityCodeId>
+      <xs:EntityType>UNREGULATED</xs:EntityType>
+      <xs:PastDueAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0.0</xs:PastDueAmt>
+      <xs:CurrentDueAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9.6</xs:CurrentDueAmt>
+      <xs:PWOAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0.0</xs:PWOAmt>
+      <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+      <xs:BillingAccntId>2083341956567</xs:BillingAccntId>
+    </xs:EntityBalanceDetail>
+    <xs:EntityBalanceDetail>
+      <xs:EntityCodeId>MTN</xs:EntityCodeId>
+      <xs:EntityType>REGULATED</xs:EntityType>
+      <xs:PastDueAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0.0</xs:PastDueAmt>
+      <xs:CurrentDueAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">78.28</xs:CurrentDueAmt>
+      <xs:PWOAmt currency="USD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0.0</xs:PWOAmt>
+      <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+      <xs:BillingAccntId>2083341956567</xs:BillingAccntId>
+    </xs:EntityBalanceDetail>
+  </xs:EntityBalance>
+  <xs:PaymentMethod>CA</xs:PaymentMethod>
+</xs:AcctLookupResponse>

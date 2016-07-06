@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:HSD xmlns:xs="http://www.qwest.com/XMLSchema">
+  <xs:SRS>CPLUS_OOP</xs:SRS>
+  <xs:SRU>ab42864</xs:SRU>
+  <xs:SRT>IOT20150123002</xs:SRT>
+  <xs:STY>InitiateDeTokenSession</xs:STY>
+  <xs:STV>900</xs:STV>
+  <xs:SNU>http://www.google.com</xs:SNU>
+  <xs:FNU>https://www.bing.com</xs:FNU>
+  <xs:CNU>http://www.thehindu.com</xs:CNU>
+  <xs:TKN>cr&amp;ei</xs:TKN>
+  <xs:STM>2015-03-20T04:37:38.728-05:00</xs:STM>
+</xs:HSD>

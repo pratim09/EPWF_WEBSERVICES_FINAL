@@ -1,0 +1,62 @@
+<xs:TRX xmlns:xs="http://www.qwest.com/XMLSchema">
+  <xs:TRS>PPO</xs:TRS>
+  <xs:TRU>ab14334</xs:TRU>
+  <xs:ECD>QWTEST1</xs:ECD>
+  <xs:PRJ>QWA1000000</xs:PRJ>
+  <xs:COM>Internet</xs:COM>
+  <xs:SIC>PPO</xs:SIC>
+  <xs:TX0>4805633006060</xs:TX0>
+  <xs:TX1>8280643</xs:TX1>
+  <xs:TX3>CRIS-C</xs:TX3>
+  <xs:TX4>PPO</xs:TX4>
+  <xs:TX5>XCASH</xs:TX5>
+  <xs:STI>123456</xs:STI>
+  <xs:TTY>PAYMENT</xs:TTY>
+  <xs:TKN>5094150743557126</xs:TKN>
+  <xs:CRD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:IID>522517</xs:IID>
+    <xs:PAN xsi:nil="true"/>
+    <xs:MAN>************7126</xs:MAN>
+    <xs:EXP>05-2020</xs:EXP>
+    <xs:CBR>VISA</xs:CBR>
+    <xs:CVV>500</xs:CVV>
+  </xs:CRD>
+  <xs:CUS>
+    <xs:CID>4805633006060</xs:CID>
+    <xs:AD1>APT
+456</xs:AD1>
+    <xs:CIT>DENVER</xs:CIT>
+    <xs:STA>CO</xs:STA>
+    <xs:CTY>US</xs:CTY>
+    <xs:ZIP>25600</xs:ZIP>
+    <xs:CTP>Private</xs:CTP>
+    <xs:FNM>ravi</xs:FNM>
+    <xs:LNM>ABCD</xs:LNM>
+  </xs:CUS>
+  <xs:AAI>Y</xs:AAI>
+  <xs:PMT>
+    <xs:AMT>200.0</xs:AMT>
+    <xs:PAC>AUTHORIZE</xs:PAC>
+    <xs:PST>APPROVED</xs:PST>
+    <xs:INV>4805633006060</xs:INV>
+    <xs:IND>03/20/2015
+04:39:47</xs:IND>
+    <xs:CUR>USD</xs:CUR>
+    <xs:PID>6143</xs:PID>
+    <xs:ORD>N12345678</xs:ORD>
+    <xs:SPI>8280643</xs:SPI>
+  </xs:PMT>
+  <xs:TST>2016-07-05T12:56:17.643Z</xs:TST>
+  <xs:TET>2016-07-05T12:56:17.911Z</xs:TET>
+  <xs:PRD>
+    <xs:PPR>CPSD</xs:PPR>
+    <xs:PRC>100</xs:PRC>
+    <xs:PRM>Approved</xs:PRM>
+    <xs:PCN>tst786</xs:PCN>
+    <xs:MOP>VISA</xs:MOP>
+    <xs:MID>30</xs:MID>
+  </xs:PRD>
+  <xs:RES>
+    <xs:RCD>S</xs:RCD>
+  </xs:RES>
+</xs:TRX>

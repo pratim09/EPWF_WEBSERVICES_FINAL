@@ -1,0 +1,64 @@
+<xs:SubmitPaymentResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>20160610160358</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-14T07:43:36.130-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>S</bim:TransactionStatus>
+  <xs:Payment>
+    <xs:PaymentId>8388659</xs:PaymentId>
+    <xs:PaymentStatus>Session_InProgress</xs:PaymentStatus>
+    <bim:Email>ab42863@centurylink.com</bim:Email>
+    <xs:ConvenienceFeeAmt>0.00</xs:ConvenienceFeeAmt>
+    <xs:TotalTaxAmt>0.00</xs:TotalTaxAmt>
+    <xs:PaymentAmt>10.00</xs:PaymentAmt>
+    <xs:PaymentProcessDateTime>2016-06-14T00:00:00.000-05:00</xs:PaymentProcessDateTime>
+    <xs:PaymentCreatedDateTime>2016-06-14T07:43:34.393-05:00</xs:PaymentCreatedDateTime>
+    <xs:PaymentCreatedUserName>ab42863</xs:PaymentCreatedUserName>
+    <xs:TransactionTypeCode>Payment</xs:TransactionTypeCode>
+    <xs:InputChannelId>MA_PAY</xs:InputChannelId>
+    <xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+    <xs:ConsentMediumCode>Phone</xs:ConsentMediumCode>
+    <xs:UserId>ab42863</xs:UserId>
+    <xs:PaymentSvcMessage>
+      <xs:SvcStatusCode>Session_Initiated</xs:SvcStatusCode>
+      <xs:ServiceTypeCode>Session</xs:ServiceTypeCode>
+      <xs:SvcActionCode>Authorize</xs:SvcActionCode>
+      <xs:SvcResponseCode>0</xs:SvcResponseCode>
+      <xs:SvcResponseDesc>Service succeeded</xs:SvcResponseDesc>
+      <xs:SvcRequestDateTime>2016-06-14T07:43:35.686-05:00</xs:SvcRequestDateTime>
+      <xs:SvcResponseDateTime>2016-06-14T07:43:35.687-05:00</xs:SvcResponseDateTime>
+      <xs:PaymentProcessorRefNum/>
+      <xs:PaymentProcessorRespCode/>
+    </xs:PaymentSvcMessage>
+    <xs:SrcApplicationId>THUNDERCAT</xs:SrcApplicationId>
+    <xs:DestinationApplicationId>XCASH</xs:DestinationApplicationId>
+    <xs:CustomerType>SBG</xs:CustomerType>
+    <xs:PaymentScheduleType>OneTime</xs:PaymentScheduleType>
+    <xs:VendorCustomerId>QRF00000000001000049281</xs:VendorCustomerId>
+    <xs:OrderNumber>N12345678</xs:OrderNumber>
+    <xs:BusinessName>Scooby Dooby Doo</xs:BusinessName>
+    <xs:EPWFAddressT>
+      <xs:StreetAddress1>617
+N
+SOLAR
+DR</xs:StreetAddress1>
+      <xs:City>SIOUX
+FALLS</xs:City>
+      <bim:StateProvince>CO</bim:StateProvince>
+      <xs:PostalCode>57103</xs:PostalCode>
+      <xs:AddressType>BLG</xs:AddressType>
+    </xs:EPWFAddressT>
+    <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+    <xs:BillingAcctId>7635376286815</xs:BillingAcctId>
+    <xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+    <xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+    <xs:CardAllowedFlag>true</xs:CardAllowedFlag>
+    <xs:VendorCd>IBM</xs:VendorCd>
+    <xs:RestoralInd>N</xs:RestoralInd>
+  </xs:Payment>
+  <xs:SessionDetail>
+    <xs:SessionId>V843VN6SC2TC5</xs:SessionId>
+    <xs:SessionURL>https://ips-preprod.ihost.com/hpp/checkout.hpp?sessionId=V843VN6SC2TC5</xs:SessionURL>
+  </xs:SessionDetail>
+</xs:SubmitPaymentResponse>

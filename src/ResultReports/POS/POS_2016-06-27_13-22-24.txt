@@ -1,0 +1,7 @@
+<xs:SubmitPaymentResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <bim:TransactionStatus>F</bim:TransactionStatus>
+  <bim:ErrorList>
+    <bim:ErrorCode>10002</bim:ErrorCode>
+    <bim:ErrorMessage>Received an Error calling EPWF Sub Service, the order was not processed.</bim:ErrorMessage>
+  </bim:ErrorList>
+</xs:SubmitPaymentResponse>

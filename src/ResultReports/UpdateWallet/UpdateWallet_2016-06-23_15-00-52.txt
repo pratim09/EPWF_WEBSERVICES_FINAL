@@ -1,0 +1,12 @@
+<xs:WalletMgmtSvcResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>20160623150110</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-23T04:31:11.858-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>F</bim:TransactionStatus>
+  <bim:ErrorList>
+    <bim:ErrorCode>90003</bim:ErrorCode>
+    <bim:ErrorMessage>string value '' is not a valid enumeration value for type of element CustomerType in namespace http://www.qwest.com/XMLSchema</bim:ErrorMessage>
+  </bim:ErrorList>
+</xs:WalletMgmtSvcResponse>

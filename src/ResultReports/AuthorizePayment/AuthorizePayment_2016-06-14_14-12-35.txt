@@ -1,0 +1,4 @@
+<xs:MDWStatusMessage xmlns:xs="http://mdw.qwest.com/XMLSchema">
+  <StatusCode>-3</StatusCode>
+  <xs:StatusMessage>No event handler has been configured for message</xs:StatusMessage>
+</xs:MDWStatusMessage>

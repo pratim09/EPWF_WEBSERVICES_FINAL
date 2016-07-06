@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ns2:WalletMgmtSvcRequest xmlns:ns2="http://www.qwest.com/XMLSchema" xmlns="http://www.qwest.com/XMLSchema/BIM">
+  <ns2:EPWFHeaderInfo>
+    <RequestId>20160616160320</RequestId>
+    <SendTimeStamp>2015-08-10T16:41:28.005-06:00</SendTimeStamp>
+    <MessageSrcSystem>EPP</MessageSrcSystem>
+  </ns2:EPWFHeaderInfo>
+  <ns2:BillingAccountId>3038571692924</ns2:BillingAccountId>
+  <ns2:BillingApplicationId>CRIS</ns2:BillingApplicationId>
+  <ns2:CustomerType>CON</ns2:CustomerType>
+  <ns2:BillingAcctRegion>IR</ns2:BillingAcctRegion>
+  <ns2:RequestType>InitiateWalletSession</ns2:RequestType>
+  <ns2:WalletType>ACT</ns2:WalletType>
+   <ns2:SessionDetail>
+    <ns2:StyleSheetURL>https://sbccenter-dev1.dev.qintra.com/smbcms/unprotected/css/speedpay.css</ns2:StyleSheetURL>
+    <ns2:SuccessNotificationURL>https://sbccenter-dev1.dev.qintra.com/smallbusiness/jsp/walletMgmtSuccess.jsp?status=success</ns2:SuccessNotificationURL>
+    <ns2:FailureNotificationURL>https://sbccenter-dev1.dev.qintra.com/smallbusiness/jsp/walletMgmtSuccess.jsp?status=failure</ns2:FailureNotificationURL>
+    <ns2:CancelNotificationURL>https://sbccenter-dev1.dev.qintra.com/smallbusiness/jsp/walletMgmtSuccess.jsp?status=cancel</ns2:CancelNotificationURL>
+  </ns2:SessionDetail>
+</ns2:WalletMgmtSvcRequest>

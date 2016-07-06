@@ -1,0 +1,12 @@
+<xs:WalletMgmtSvcResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>20160621164607</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-21T06:16:21.090-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>F</bim:TransactionStatus>
+  <bim:ErrorList>
+    <bim:ErrorCode>10003</bim:ErrorCode>
+    <bim:ErrorMessage>Wallet Instrument Details are not allowed</bim:ErrorMessage>
+  </bim:ErrorList>
+</xs:WalletMgmtSvcResponse>

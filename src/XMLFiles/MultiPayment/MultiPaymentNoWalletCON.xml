@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:MultiPaymentSubmitRequest xmlns:xs="http://www.qwest.com/XMLSchema">
+<xs:EPWFHeaderInfo>   
+	<bim:RequestId xmlns:bim="http://www.qwest.com/XMLSchema/BIM">20160314122005</bim:RequestId>
+    <bim:SendTimeStamp xmlns:bim="http://www.qwest.com/XMLSchema/BIM">2014-05-13T01:08:18.537-06:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem xmlns:bim="http://www.qwest.com/XMLSchema/BIM">QPORTAL</bim:MessageSrcSystem>
+</xs:EPWFHeaderInfo>
+<xs:MultiPaymentSubmitRequestAction>InitiateMultiPaymentSession</xs:MultiPaymentSubmitRequestAction>
+  <xs:SrcApplicationId>QPORTAL</xs:SrcApplicationId>
+  <xs:InputChannelId>CC_SMB</xs:InputChannelId>
+  <xs:ConsentMediumCode>Internet</xs:ConsentMediumCode>
+  <xs:UserId>ab42863</xs:UserId>
+  <xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+  <xs:CardAllowedFlag>true</xs:CardAllowedFlag>
+  <xs:WalletRef>011920161137PRF</xs:WalletRef>
+  <bim:Email xmlns:bim="http://www.qwest.com/XMLSchema/BIM">aa70202@centurylink.com</bim:Email>
+  <xs:TotalPaymentAmt>550.0</xs:TotalPaymentAmt>
+  <xs:MultiPayment>
+		<xs:PaymentProcessDateTime>2016-03-14</xs:PaymentProcessDateTime>
+		<xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+		<xs:CustomerType>CON</xs:CustomerType>
+		<xs:DestinationApplicationId>XCASH</xs:DestinationApplicationId>
+		<xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+		<xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+		<xs:BillingAcctId>3083840990211</xs:BillingAcctId>
+		<xs:PaymentAmt currency="USD">16.00</xs:PaymentAmt>
+		<xs:ConvenienceFeeAmt currency="USD">0</xs:ConvenienceFeeAmt>
+		<xs:TotalTaxAmt currency="USD">0.00</xs:TotalTaxAmt>
+		<xs:CustomerFirstName>Sheetal</xs:CustomerFirstName>
+		<xs:CustomerLastName>Test1</xs:CustomerLastName>
+		<xs:EPWFAddressT>
+			<xs:StreetAddress1>123 Main Street</xs:StreetAddress1>
+			<xs:StreetAddress2>Apt 456</xs:StreetAddress2>
+			<xs:City>Denver</xs:City>
+			<bim:StateProvince xmlns:bim="http://www.qwest.com/XMLSchema/BIM">MN</bim:StateProvince>
+			<xs:PostalCode>25601</xs:PostalCode>
+			<xs:AddressType>BLG</xs:AddressType>
+		</xs:EPWFAddressT>
+	</xs:MultiPayment>
+	<xs:MultiPayment>
+		<xs:PaymentProcessDateTime>2016-03-14</xs:PaymentProcessDateTime>
+		<xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+		<xs:CustomerType>CON</xs:CustomerType>
+		<xs:DestinationApplicationId>XCASH</xs:DestinationApplicationId>
+		<xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+		<xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+		<xs:BillingAcctId>6053396507862</xs:BillingAcctId>
+		<xs:PaymentAmt currency="USD">16.00</xs:PaymentAmt>
+		<xs:ConvenienceFeeAmt currency="USD">0</xs:ConvenienceFeeAmt>
+		<xs:TotalTaxAmt currency="USD">0.00</xs:TotalTaxAmt>
+		<xs:CustomerFirstName>Sheetal</xs:CustomerFirstName>
+		<xs:CustomerLastName>Test2</xs:CustomerLastName>
+		<xs:EPWFAddressT>
+			<xs:StreetAddress1>123 Main Street</xs:StreetAddress1>
+			<xs:StreetAddress2>Apt 456</xs:StreetAddress2>
+			<xs:City>Denver</xs:City>
+			<bim:StateProvince xmlns:bim="http://www.qwest.com/XMLSchema/BIM">CO</bim:StateProvince>
+			<xs:PostalCode>25602</xs:PostalCode>
+			<xs:AddressType>BLG</xs:AddressType>
+		</xs:EPWFAddressT>
+	</xs:MultiPayment>
+	<xs:MultiPayment>
+		<xs:PaymentProcessDateTime>2016-03-14</xs:PaymentProcessDateTime>
+		<xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+		<xs:CustomerType>CON</xs:CustomerType>
+		<xs:DestinationApplicationId>XCASH</xs:DestinationApplicationId>
+		<xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+		<xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+		<xs:BillingAcctId>7205420899207</xs:BillingAcctId>
+		<xs:PaymentAmt currency="USD">16.00</xs:PaymentAmt>
+		<xs:ConvenienceFeeAmt currency="USD">0</xs:ConvenienceFeeAmt>
+		<xs:TotalTaxAmt currency="USD">0.00</xs:TotalTaxAmt>
+		<xs:CustomerFirstName>Sheetal</xs:CustomerFirstName>
+		<xs:CustomerLastName>Test2</xs:CustomerLastName>
+		<xs:EPWFAddressT>
+			<xs:StreetAddress1>123 Main Street</xs:StreetAddress1>
+			<xs:StreetAddress2>Apt 456</xs:StreetAddress2>
+			<xs:City>Denver</xs:City>
+			<bim:StateProvince xmlns:bim="http://www.qwest.com/XMLSchema/BIM">CO</bim:StateProvince>
+			<xs:PostalCode>25602</xs:PostalCode>
+			<xs:AddressType>BLG</xs:AddressType>
+		</xs:EPWFAddressT>
+	</xs:MultiPayment>
+		<xs:SessionDetail>
+		<xs:StyleSheetURL>http://stylesheet.url.com</xs:StyleSheetURL>
+		<xs:SuccessNotificationURL>https://www.google.com</xs:SuccessNotificationURL>
+		<xs:FailureNotificationURL>http://www.bing.com</xs:FailureNotificationURL>
+		<xs:CancelNotificationURL>http://www.tcs.com</xs:CancelNotificationURL>
+	</xs:SessionDetail>
+</xs:MultiPaymentSubmitRequest>

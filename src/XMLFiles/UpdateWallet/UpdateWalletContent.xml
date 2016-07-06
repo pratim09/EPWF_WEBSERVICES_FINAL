@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xs:WalletMgmtSvcRequest xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+<xs:EPWFHeaderInfo>
+<bim:RequestId>20160623182112</bim:RequestId>
+<bim:SendTimeStamp>2011-05-30T12:50:17.607+05:30</bim:SendTimeStamp>
+<bim:MessageSrcSystem>CALLHANDIVR</bim:MessageSrcSystem>
+</xs:EPWFHeaderInfo>
+<xs:BillingAccountId>6128663420466</xs:BillingAccountId>
+<xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+<xs:CustomerType>WBG</xs:CustomerType>
+<xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+<xs:RequestType>UpdateWalletContent</xs:RequestType>
+<xs:WalletType>REC</xs:WalletType> 
+<xs:WalletReferenceNumber>11028217REC</xs:WalletReferenceNumber>
+<xs:SrcApplicationId>CALLHANDIVR</xs:SrcApplicationId>
+<xs:InputChannelId>IVR</xs:InputChannelId>
+<xs:WalletInstrumentDetails>
+<xs:CardDetails>
+<xs:InstrumentId>6705898</xs:InstrumentId>
+<xs:ExpiryDate>2019-09-30+00:00</xs:ExpiryDate>
+<xs:ZipCode>11111</xs:ZipCode>
+</xs:CardDetails>
+</xs:WalletInstrumentDetails>
+</xs:WalletMgmtSvcRequest>

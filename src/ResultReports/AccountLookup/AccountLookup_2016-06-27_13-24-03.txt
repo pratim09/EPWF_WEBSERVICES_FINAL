@@ -1,0 +1,12 @@
+<xs:AcctLookupResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo xmlns:qb="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <qb:RequestId>20160627132405</qb:RequestId>
+    <qb:SendTimeStamp>2001-12-17T09:30:47Z</qb:SendTimeStamp>
+    <qb:MessageSrcSystem>QPORTAL</qb:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>F</bim:TransactionStatus>
+  <bim:ErrorList>
+    <bim:ErrorCode>90002</bim:ErrorCode>
+    <bim:ErrorMessage>NO RESPONSE FROM XCASH MULTIPLE DATA INQUIRY</bim:ErrorMessage>
+  </bim:ErrorList>
+</xs:AcctLookupResponse>

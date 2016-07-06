@@ -1,0 +1,21 @@
+<xs:WalletMgmtSvcResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>20160621182506</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-21T07:55:16.745-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>S</bim:TransactionStatus>
+  <xs:BillingAccountId>2537594413115</xs:BillingAccountId>
+  <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+  <xs:CustomerType>WBG</xs:CustomerType>
+  <xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+  <xs:RequestType>RetrieveWalletContent</xs:RequestType>
+  <xs:WalletType>REC</xs:WalletType>
+  <xs:WalletReferenceNumber>11028217REC</xs:WalletReferenceNumber>
+  <xs:CardDetails>
+    <xs:InstrumentId>6705898</xs:InstrumentId>
+    <xs:MaskedPaymentAcctId>****7126</xs:MaskedPaymentAcctId>
+    <xs:ExpiryDate>06-2020</xs:ExpiryDate>
+    <xs:CardBrand>Visa</xs:CardBrand>
+  </xs:CardDetails>
+</xs:WalletMgmtSvcResponse>

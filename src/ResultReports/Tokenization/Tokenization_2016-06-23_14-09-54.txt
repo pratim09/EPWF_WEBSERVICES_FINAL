@@ -1,0 +1,35 @@
+<xs:HSD xmlns:xs="http://www.qwest.com/XMLSchema">
+  <xs:SRS>CPLS_OOP</xs:SRS>
+  <xs:SRU>ab14334</xs:SRU>
+  <xs:SRT>CPLUS20150123001</xs:SRT>
+  <xs:STY>InitiateTokenSession</xs:STY>
+  <xs:ZPI>Y</xs:ZPI>
+  <xs:ADI>Y</xs:ADI>
+  <xs:CVI>Y</xs:CVI>
+  <xs:CNI>Y</xs:CNI>
+  <xs:APM>VISA,MASTER,AMEX,DISCOVER</xs:APM>
+  <xs:STV>900</xs:STV>
+  <xs:SSU>https://iot-itv1.centurylink.com/ebus/css/depositIframe.css</xs:SSU>
+  <xs:SNU>https://www.google.com</xs:SNU>
+  <xs:FNU>https://www.failure.com</xs:FNU>
+  <xs:CNU>https://www.cancel.com</xs:CNU>
+  <xs:CUS>
+    <xs:AD1>13435
+E
+KAHLUA
+RD</xs:AD1>
+    <xs:CIT>VAIL</xs:CIT>
+    <xs:STA>AZ</xs:STA>
+    <xs:ZIP>85641</xs:ZIP>
+  </xs:CUS>
+  <xs:PMT/>
+  <xs:SID>A8LWXG2NB6YPP</xs:SID>
+  <xs:SEU>https://hcde-itv1.centurylink.com/HCDE/Internal/UI/token/getSession?sessionId=A8LWXG2NB6YPP</xs:SEU>
+  <xs:DTL>5</xs:DTL>
+  <xs:CFL>Submit</xs:CFL>
+  <xs:CNL>Cancel</xs:CNL>
+  <xs:RES>
+    <xs:RCD>S</xs:RCD>
+  </xs:RES>
+  <xs:STM>2016-06-23T03:39:57.055-05:00</xs:STM>
+</xs:HSD>

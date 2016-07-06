@@ -1,0 +1,12 @@
+<xs:WalletMgmtSvcResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>20160616160320</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-16T05:33:22.123-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>F</bim:TransactionStatus>
+  <bim:ErrorList>
+    <bim:ErrorCode>10002</bim:ErrorCode>
+    <bim:ErrorMessage>Received an Error calling EPWF Sub Service.</bim:ErrorMessage>
+  </bim:ErrorList>
+</xs:WalletMgmtSvcResponse>

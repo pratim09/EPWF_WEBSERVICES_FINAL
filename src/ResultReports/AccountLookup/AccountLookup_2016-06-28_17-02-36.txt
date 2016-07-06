@@ -1,0 +1,78 @@
+<xs:AcctLookupResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo xmlns:qb="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <qb:RequestId>20160628170238</qb:RequestId>
+    <qb:SendTimeStamp>2001-12-17T09:30:47Z</qb:SendTimeStamp>
+    <qb:MessageSrcSystem>QPORTAL</qb:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>S</bim:TransactionStatus>
+  <xs:InputChannelId>QPORTAL</xs:InputChannelId>
+  <xs:SrcApplicationId>QPORTAL</xs:SrcApplicationId>
+  <xs:BillingAccntId>2063672204592</xs:BillingAccntId>
+  <xs:VendorCustomerId>QRF00000000001000019540</xs:VendorCustomerId>
+  <xs:SrcSystemTranId>EPP</xs:SrcSystemTranId>
+  <xs:BillingApplicationId>CRIS-W</xs:BillingApplicationId>
+  <xs:LastBillCycleDay>2013-02-08T00:00:00.000-06:00</xs:LastBillCycleDay>
+  <xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+  <xs:LastBillCurrentChargesAmt currency="USD">23.54</xs:LastBillCurrentChargesAmt>
+  <xs:CustomerType>CON</xs:CustomerType>
+  <xs:AcctStatusCode>L</xs:AcctStatusCode>
+  <xs:VCSRAccountStatus>LIVE</xs:VCSRAccountStatus>
+  <xs:CAJUNTreatmentInd>false</xs:CAJUNTreatmentInd>
+  <xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+  <xs:CreditClass>B</xs:CreditClass>
+  <xs:EntityFinalCode>N</xs:EntityFinalCode>
+  <xs:WholesaleRetailCode>R</xs:WholesaleRetailCode>
+  <xs:CustomerName>YELENA &amp; IGOR KLIMENKOFF</xs:CustomerName>
+  <xs:EPWFAddressT>
+    <xs:StreetAddress1>THE HIGHLANDS</xs:StreetAddress1>
+    <xs:StreetAddress2>IGOR KLIMENKOFF</xs:StreetAddress2>
+    <xs:City>SHORELINE</xs:City>
+    <bim:StateProvince>WA</bim:StateProvince>
+    <xs:PostalCode>98177</xs:PostalCode>
+    <xs:AddressType>BLG</xs:AddressType>
+  </xs:EPWFAddressT>
+  <xs:ConvenienceFeeAmt currency="USD">0.00</xs:ConvenienceFeeAmt>
+  <xs:AdjustedDueAmt currency="USD">-113.00</xs:AdjustedDueAmt>
+  <xs:ActualDueAmt currency="USD">0.0</xs:ActualDueAmt>
+  <xs:PendingPmtAmt currency="USD">113.00</xs:PendingPmtAmt>
+  <xs:UnpaidBalanceAmt currency="USD">0.0</xs:UnpaidBalanceAmt>
+  <xs:EntityBalance>
+    <xs:EntityBalanceDetail>
+      <xs:EntityCodeId>0782</xs:EntityCodeId>
+      <xs:EntityType>UNREGULATED</xs:EntityType>
+      <xs:PastDueAmt currency="USD">-2.17</xs:PastDueAmt>
+      <xs:CurrentDueAmt currency="USD">0.0</xs:CurrentDueAmt>
+      <xs:PWOAmt currency="USD">0.0</xs:PWOAmt>
+      <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+      <xs:BillingAccntId>2063672204592</xs:BillingAccntId>
+    </xs:EntityBalanceDetail>
+    <xs:EntityBalanceDetail>
+      <xs:EntityCodeId>000R</xs:EntityCodeId>
+      <xs:EntityType>REGULATED</xs:EntityType>
+      <xs:PastDueAmt currency="USD">-23.45</xs:PastDueAmt>
+      <xs:CurrentDueAmt currency="USD">23.54</xs:CurrentDueAmt>
+      <xs:PWOAmt currency="USD">0.0</xs:PWOAmt>
+      <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+      <xs:BillingAccntId>2063672204592</xs:BillingAccntId>
+    </xs:EntityBalanceDetail>
+    <xs:EntityBalanceDetail>
+      <xs:EntityCodeId>012A</xs:EntityCodeId>
+      <xs:EntityType>UNREGULATED</xs:EntityType>
+      <xs:PastDueAmt currency="USD">-4.19</xs:PastDueAmt>
+      <xs:CurrentDueAmt currency="USD">0.0</xs:CurrentDueAmt>
+      <xs:PWOAmt currency="USD">0.0</xs:PWOAmt>
+      <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+      <xs:BillingAccntId>2063672204592</xs:BillingAccntId>
+    </xs:EntityBalanceDetail>
+    <xs:EntityBalanceDetail>
+      <xs:EntityCodeId>000M</xs:EntityCodeId>
+      <xs:EntityType>UNREGULATED</xs:EntityType>
+      <xs:PastDueAmt currency="USD">6.27</xs:PastDueAmt>
+      <xs:CurrentDueAmt currency="USD">0.0</xs:CurrentDueAmt>
+      <xs:PWOAmt currency="USD">0.0</xs:PWOAmt>
+      <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+      <xs:BillingAccntId>2063672204592</xs:BillingAccntId>
+    </xs:EntityBalanceDetail>
+  </xs:EntityBalance>
+  <xs:PaymentMethod>CC</xs:PaymentMethod>
+</xs:AcctLookupResponse>

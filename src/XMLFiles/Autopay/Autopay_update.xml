@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><AutoPayMangementRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <EPWFHeaderInfo>
+    <bim:RequestId>20160705171128</bim:RequestId>
+    <bim:SendTimeStamp>2015-04-13T06:37:49.024-05:00       
+</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>QPORTAL</bim:MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <AutoPayRequestType>AutoPayModifyEnrollment</AutoPayRequestType>
+    <AccountDetails>
+    <BillingAcctId>56660929</BillingAcctId>
+    <BillingApplicationId>LATIS</BillingApplicationId>
+    <CustomerType>SBG</CustomerType>
+  </AccountDetails>
+  <SrcApplicationId>QPORTAL</SrcApplicationId>
+  <InputChannelId>CC_BMG</InputChannelId>
+  <UserId>ab14177</UserId>
+  <SrcSystemTranId>123544663</SrcSystemTranId>
+  <EmailId>ab14177@centurylink.com</EmailId>
+  <EnterpriseId/>
+  <SessionDetail>
+    <StyleSheetURL>https://tcat-itv1.centurylink.com:443/qcms/qCmsRepository/Global/centurylink/css/myaccount/payment/iFrame.css</StyleSheetURL>
+    <SuccessNotificationURL>https://www.google.com?param=success</SuccessNotificationURL>
+                <FailureNotificationURL>http://www.bing.com?param=fail</FailureNotificationURL>
+                <CancelNotificationURL>http://www.tcs.com?param=cancel</CancelNotificationURL>
+  </SessionDetail>
+</AutoPayMangementRequest>

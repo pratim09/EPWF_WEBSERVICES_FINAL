@@ -1,0 +1,13 @@
+<xs:AutoPayMangementResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>011520160926</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-28T03:30:56.743-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <xs:SrcSystemTranId>110925</xs:SrcSystemTranId>
+  <xs:SessionDetail>
+    <xs:SessionId>OQWYBOXBW8BFH</xs:SessionId>
+    <xs:SessionURL>https://hcde-itv1.centurylink.com/HCDE/Internal/UI/autopay/getSession?sessionId=OQWYBOXBW8BFH</xs:SessionURL>
+  </xs:SessionDetail>
+  <bim:TransactionStatus>S</bim:TransactionStatus>
+</xs:AutoPayMangementResponse>

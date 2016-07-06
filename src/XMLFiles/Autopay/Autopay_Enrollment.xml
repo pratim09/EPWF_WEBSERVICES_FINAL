@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><AutoPayMangementRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:ns2="http://www.qwest.com/XMLSchema/BIM">
+  <EPWFHeaderInfo>
+    <ns2:RequestId>011520160926</ns2:RequestId>
+    <ns2:SendTimeStamp>2015-09-11T04:24:01.636-06:00</ns2:SendTimeStamp>
+    <ns2:MessageSrcSystem>QPORTAL</ns2:MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <AutoPayRequestType>AutopayEnrollment</AutoPayRequestType>
+  <AccountDetails>
+    <BillingAcctId>56660929</BillingAcctId>
+    <BillingApplicationId>LATIS</BillingApplicationId>
+    <CustomerType>SBG</CustomerType>
+  </AccountDetails>
+  <SrcApplicationId>QPORTAL</SrcApplicationId>
+  <InputChannelId>CC_BMG</InputChannelId>
+  <UserId>ab428636</UserId>
+  <SrcSystemTranId>110925</SrcSystemTranId>
+  <EmailId>ab14177@centurylink.com</EmailId>
+  <EnterpriseId>24769</EnterpriseId>
+  <SessionDetail>
+    <StyleSheetURL>https://tcat-itv1.centurylink.com:443/qcms/qCmsRepository/Global/centurylink/css/myaccount/payment/iFrame.css</StyleSheetURL>
+    <SuccessNotificationURL>http://www.google.com</SuccessNotificationURL>
+    <FailureNotificationURL>http://www.facebook.com</FailureNotificationURL>
+    <CancelNotificationURL>https://sbcontrolcenter-e2e.centurylink.com/smallbusiness/resources/makePayment.jsp</CancelNotificationURL>
+  </SessionDetail>
+</AutoPayMangementRequest>

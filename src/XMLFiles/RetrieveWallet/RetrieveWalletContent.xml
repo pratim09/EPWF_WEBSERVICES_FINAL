@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><WalletMgmtSvcRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <EPWFHeaderInfo>
+    <bim:RequestId>20160623182123</bim:RequestId>
+    <bim:SendTimeStamp>2014-07-18T05:14:10.195-06:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPP</bim:MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <BillingAccountId>6128663420466</BillingAccountId>
+  <BillingApplicationId>CRIS</BillingApplicationId>
+  <CustomerType>WBG</CustomerType>
+  <BillingAcctRegion>IR</BillingAcctRegion>
+  <RequestType>RetrieveWalletContent</RequestType>
+  <WalletType>REC</WalletType>
+<WalletReferenceNumber>11028217REC</WalletReferenceNumber>
+<ACHAllowedFlag>true</ACHAllowedFlag>
+  <CardAllowedFlag>true</CardAllowedFlag>
+  <SrcApplicationId>EPP</SrcApplicationId>
+  <InputChannelId>EPP</InputChannelId>
+  <UserId>ab42863</UserId>
+  <SessionDetail>
+    <StyleSheetURL>http://iot-preprod.centurylink.com/ebus/css/depositIframe.css</StyleSheetURL>
+    <SuccessNotificationURL>http://iot-preprod.centurylink.com/iot/templates/epwf/tempWalletSuccess.vm</SuccessNotificationURL>
+    <FailureNotificationURL>http://iot-preprod.centurylink.com/iot/templates/epwf/tempWalletFailure.vm</FailureNotificationURL>
+    <CancelNotificationURL>http://iot-preprod.centurylink.com/iot/templates/epwf/tempWalletCancel.vm</CancelNotificationURL>
+  </SessionDetail>
+</WalletMgmtSvcRequest>

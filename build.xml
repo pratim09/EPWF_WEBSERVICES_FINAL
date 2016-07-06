@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="EPWFAutomationNew">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../eclipse-jee-luna-R-win32-x86_64 (1)/eclipse/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit_4.11.0.v201303080030/junit.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+    </path>
+    <path id="POI Library.userclasspath"/>
+    <path id="SeleniumWebdriver Library.userclasspath"/>
+    <path id="EPWFAutomationNew.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+        <path refid="POI Library.userclasspath"/>
+        <path refid="SeleniumWebdriver Library.userclasspath"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jsoup-1.9.2.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jsoup-1.8.3.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/dom4j-2.0.0-RC1.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/apache-mime4j-0.6.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/bsh-2.0b4.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/cglib-nodep-2.1_3.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/commons-codec-1.10.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/commons-collections-3.2.1.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/commons-el-1.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/commons-exec-1.3.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/commons-io-2.4.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/commons-logging-1.2.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/cssparser-0.9.16.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/gson-2.3.1.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/guava-18.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/hamcrest-core-1.3.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/hamcrest-library-1.3.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/htmlunit-2.18.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/htmlunit-core-js-2.17.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/httpclient-4.5.1.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/httpcore-4.4.3.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/httpmime-4.5.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jasper-compiler-5.5.15.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jasper-compiler-jdt-5.5.15.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jasper-runtime-5.5.15.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/javax.servlet-api-3.1.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jcommander-1.48.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-continuation-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-http-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-io-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-jmx-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-security-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-server-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-servlet-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-servlets-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jetty-util-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jna-4.1.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jna-platform-4.1.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/jsp-api-2.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/junit-4.12.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/nekohtml-1.9.22.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/netty-3.5.7.Final.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/phantomjsdriver-1.2.1.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/sac-1.3.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/selenium-java-2.48.2.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/selenium-java-2.48.2-srcs.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/serializer-2.7.2.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/testng-6.9.6.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/websocket-api-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/websocket-client-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/websocket-common-9.2.13.v20150730.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/xalan-2.7.2.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/xercesImpl-2.11.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/xml-apis-1.4.01.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/poi-excelant-3.12-20150511.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/poi-ooxml-schemas-3.12-20150511.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/poi-3.12-20150511.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/poi-examples-3.12-20150511.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/poi-ooxml-3.12-20150511.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/poi-scratchpad-3.12-20150511.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/xmlbeans-2.6.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/commons-lang3-3.4-javadoc.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/commons-lang3-3.4.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/xmlbeans-5.1.3-sources.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/dom4j-1.6.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/javax-xml-soap-1.6.0.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/ojdbc6.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/ojdbc14.jar"/>
+        <pathelement location="../../Desktop/PERSONAL/SELENIUM/ALL JARS/apache-commons-lang.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="EPWFAutomationNew.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="JUnitClass">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitTestCase.JUnitClass" todir="${junit.output.dir}"/>
+            <classpath refid="EPWFAutomationNew.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

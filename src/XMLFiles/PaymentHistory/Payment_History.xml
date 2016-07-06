@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:PaymentHistoryRequest xmlns:xs="http://www.qwest.com/XMLSchema">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId xmlns:bim="http://www.qwest.com/XMLSchema/BIM">LCTLBAN011</bim:RequestId>
+    <bim:SendTimeStamp xmlns:bim="http://www.qwest.com/XMLSchema/BIM">2015-04-13T03:25:52.404-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem xmlns:bim="http://www.qwest.com/XMLSchema/BIM">DVAR</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <xs:SearchType>PaymentId</xs:SearchType>
+  <xs:SearchParam>
+    <xs:Param>
+      <xs:ParamName>PaymentId</xs:ParamName>
+      <xs:ParamValue>8284169</xs:ParamValue>
+    </xs:Param>
+  </xs:SearchParam>
+  <xs:TransactionHistoryType>Payment</xs:TransactionHistoryType>
+  <xs:PaymentScheduleHistoryType>All</xs:PaymentScheduleHistoryType>
+  <xs:PaymentHistoryStatus>All</xs:PaymentHistoryStatus>
+  <xs:StartPaymentHistoryDate>2014-01-01</xs:StartPaymentHistoryDate>
+  <xs:EndPaymentHistoryDate>2015-06-25</xs:EndPaymentHistoryDate>
+</xs:PaymentHistoryRequest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><AcctLookupRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:qb="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.qwest.com/XMLSchema AcctLookupRequest_v01_00.xsd">
+  <EPWFHeaderInfo>
+    <qb:RequestId>20160610130502</qb:RequestId>
+    <qb:SendTimeStamp>2015-06-08T09:30:47Z</qb:SendTimeStamp>
+    <qb:MessageSrcSystem>EPP</qb:MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <InputChannelId>EPP</InputChannelId>
+  <SrcApplicationId>EPP</SrcApplicationId>
+  <BillingAccntId>2083341956567</BillingAccntId>
+  <SrcSystemTranId>EPP</SrcSystemTranId>
+  <BillingApplicationId>CRIS</BillingApplicationId>
+</AcctLookupRequest>

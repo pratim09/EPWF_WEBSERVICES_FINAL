@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:UpdatePaymentRequest xmlns:xs="http://www.qwest.com/XMLSchema">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId xmlns:bim="http://www.qwest.com/XMLSchema/BIM">20160705171016</bim:RequestId>
+    <bim:SendTimeStamp xmlns:bim="http://www.qwest.com/XMLSchema/BIM">2014-12-16T00:55:48.034-06:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem xmlns:bim="http://www.qwest.com/XMLSchema/BIM">EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <xs:PaymentId>8392727</xs:PaymentId>
+<xs:UpdatePaymentRequestType>SessionCompletion</xs:UpdatePaymentRequestType>    
+    <xs:UserId>ab14177</xs:UserId>
+</xs:UpdatePaymentRequest>

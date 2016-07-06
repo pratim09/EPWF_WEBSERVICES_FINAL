@@ -1,0 +1,59 @@
+<xs:SubmitPaymentResponse xmlns:xs="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>20160628160102</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-28T05:31:10.269-05:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>EPWF</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <bim:TransactionStatus>S</bim:TransactionStatus>
+  <xs:Payment>
+    <xs:PaymentId>8390819</xs:PaymentId>
+    <xs:PaymentStatus>Settlement_Completed</xs:PaymentStatus>
+    <xs:AssociatedPaymentId>8390818</xs:AssociatedPaymentId>
+    <xs:ConvenienceFeeAmt>0.00</xs:ConvenienceFeeAmt>
+    <xs:TotalTaxAmt>0.00</xs:TotalTaxAmt>
+    <xs:PaymentAmt>50.00</xs:PaymentAmt>
+    <xs:PaymentProcessDateTime>2015-06-26T00:00:00.000-05:00</xs:PaymentProcessDateTime>
+    <xs:PaymentCreatedDateTime>2016-06-28T05:31:08.662-05:00</xs:PaymentCreatedDateTime>
+    <xs:PaymentCreatedUserName>aa49489</xs:PaymentCreatedUserName>
+    <xs:TransactionTypeCode>Refund</xs:TransactionTypeCode>
+    <xs:PaymentMethodCode>CARD</xs:PaymentMethodCode>
+    <xs:InputChannelId>POS5010</xs:InputChannelId>
+    <xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+    <xs:ConsentMediumCode>Retail</xs:ConsentMediumCode>
+    <xs:UserId>aa49489</xs:UserId>
+    <xs:SrcApplicationId>EQPOS</xs:SrcApplicationId>
+    <xs:DestinationApplicationId>XCASH</xs:DestinationApplicationId>
+    <xs:CustomerType>CON</xs:CustomerType>
+    <xs:PaymentScheduleType>OneTime</xs:PaymentScheduleType>
+    <xs:VendorCustomerId>QRF00000000001000019540</xs:VendorCustomerId>
+    <xs:CustomerFirstName>Sheetal</xs:CustomerFirstName>
+    <xs:CustomerLastName>Attal</xs:CustomerLastName>
+    <xs:EPWFAddressT>
+      <xs:StreetAddress1>317
+NW
+GILMAN
+BLVD</xs:StreetAddress1>
+      <xs:StreetAddress2>STE
+50</xs:StreetAddress2>
+      <xs:City>ISSAQUAH</xs:City>
+      <bim:StateProvince>WA</bim:StateProvince>
+      <xs:PostalCode>980272485</xs:PostalCode>
+      <xs:AddressType>BLG</xs:AddressType>
+    </xs:EPWFAddressT>
+    <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+    <xs:BillingAcctId>3038571692924</xs:BillingAcctId>
+    <xs:PostingAllocation>
+      <xs:PaymentSplitDetail>
+        <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+        <xs:BillingAcctId>2063672204592</xs:BillingAcctId>
+        <xs:TotalAmt>50.00</xs:TotalAmt>
+      </xs:PaymentSplitDetail>
+    </xs:PostingAllocation>
+    <xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+    <xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+    <xs:CardAllowedFlag>true</xs:CardAllowedFlag>
+    <xs:VendorCd>POS</xs:VendorCd>
+    <xs:VendorPaymentId>20160628160055</xs:VendorPaymentId>
+    <xs:RestoralInd>N</xs:RestoralInd>
+  </xs:Payment>
+</xs:SubmitPaymentResponse>
